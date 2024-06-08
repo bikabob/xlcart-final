@@ -24,8 +24,8 @@ else:
     DEBUG = False
 
 
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORGINS = ['http://xlcart-furniture.up.railway.app/']
+ALLOWED_HOSTS = [ 'xlcart-furniture.up.railway.app', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORGINS = ['https://xlcart-furniture.up.railway.app']
 
 # Application definition
 
