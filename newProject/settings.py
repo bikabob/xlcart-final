@@ -18,14 +18,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if ENVIRONMENT == 'development':
+if ENVIRONMENT == 'production':
     DEBUG = True
 else:
     DEBUG = False
 
 
 ALLOWED_HOSTS = [ 'xlcart-furniture.up.railway.app', 'localhost', '127.0.0.1']
-CSRF_TRUSTED_ORGINS = ['https://xlcart-furniture.up.railway.app/admin']
+CSRF_TRUSTED_ORGINS = ['https://xlcart-furniture.up.railway.app/']
 
 # Application definition
 
